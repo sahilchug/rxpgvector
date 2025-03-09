@@ -21,11 +21,11 @@ pg17 = ["pgrx/pg17", "pgrx-tests/pg17" ]
 pg_test = []
 
 [dependencies]
-pgrx = "=0.12.9"
+pgrx = "0.13.1"
 serde = { version = "1.0.217", features = ["derive"] }
 
 [dev-dependencies]
-pgrx-tests = "=0.12.9"
+pgrx-tests = "=0.13.1"
 
 [profile.dev]
 panic = "unwind"

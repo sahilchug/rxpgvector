@@ -7,9 +7,9 @@ CREATE EXTENSION PGVector;
 
 ### create table
 ```sql
-CREATE TABLE test_table (
+CREATE TABLE test_vectors (
     id SERIAL PRIMARY KEY,
-    vec PGVector
+    embedding PGVector
 );
 ```
 
